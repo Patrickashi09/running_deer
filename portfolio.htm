@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio/patrickashi</title>
+
+    <style>
+
+        /* Reset some default styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Changed to black */
+    color: black;
+    text-align: center;
+}
+
+/* Basic styling */
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    animation: slideIn 1s ease;
+}
+
+header p {
+    font-size: 20px;
+    animation: fadeIn 2s ease;
+}
+
+.about, .projects {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: slideInUp 1s ease;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.project {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Keyframe animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.nameN {
+    animation: nameN ease-out 1200ms 0s infinite;
+}
+@keyframes nameN {
+    0% {
+        color: skyblue;
+        transform: translateY(5px);
+    }
+    20% {
+        color: slateblue;
+        transform: translateY(-5px);
+    }
+    40% {
+        color: lightgreen;
+        transform: translateY(5px);
+    }
+    60% {
+        color: mintcream;
+        transform: translateY(-5px);
+    }
+    80% {
+        color: violet;
+        transform: translateY(5px);
+    }
+    100% {
+        color: springgreen;
+        transform: translateY(5px);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="nameN">Patrick Ashi</h1>
+        <p>Web Developer</p>
+    </header>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Passionate web developer with a strong desire to create beautiful and functional websites. I love coding and learning new technologies.</p>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Dreamscape - A Wallpaper Website</h3>
+            <p>Dive into the World of Imagination
+
+                Introduction:
+                Dreamscape is more than just a wallpaper website; it's a portal to enchanting realms that awaken your creativity. This platform offers not only stunning wallpapers but also an immersive experience tailored to your mood, imagination, and thirst for inspiration. Whether you seek a tranquil escape or a spark of creativity, Dreamscape has you covered.
+                
+                Features:
+                
+                Mood-Based Wallpaper Search: Dreamscape understands that your mood can shape your world. With our unique mood-based search feature, you can discover wallpapers that resonate with your feelings, from serene to vibrant and everything in between.
+                
+                Imagination Unleashed: Let your imagination run wild as you explore our vast collection of wallpapers. Whether you're into dreamy landscapes, abstract art, or inspirational quotes, Dreamscape has something to fuel your creativity.
+                
+                Responsive Design: We believe in accessibility for everyone. Dreamscape is built using the Bootstrap frontend framework, ensuring a seamless and responsive experience across all screen sizes and devices.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Tune Tales - Where Music and Inspiration Collide</h3>
+            <p>Coming Soon: Your Daily Dose of Motivation and Melody
+
+                Introduction:
+                Tune Tales is a project that emerged from a passion for music and a deep appreciation for motivational quotes. Although it's still in development, it promises to be a unique fusion of these two elements, offering you a daily dose of inspiration accompanied by the soothing melodies of your favorite tunes.
+                
+                What to Expect:
+                
+                Musical Motivation: Tune Tales aims to uplift your spirits by pairing motivational quotes with carefully curated music tracks. It's an audiovisual journey that combines the power of words and the magic of melodies.
+                
+                User-Centric Features: While Tune Tales is a work in progress, we're continuously adding new functionalities to enhance your experience. Stay tuned for updates as we strive to make this platform even more engaging and inspiring.
+                
+                With Dreamscape and Tune Tales, I aim to provide you with platforms that not only cater to your visual and emotional needs but also bring a touch of magic to your online experiences. These projects reflect my passion for creativity and innovation in web development, and I look forward to sharing more exciting updates in the future.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Patrick Ashi</p>
+    </footer>
+</body>
+</html>
